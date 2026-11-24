@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  background-color: #f4f9ff;
+}
+.container {
+  width: 86%;
+  margin-left: 7%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+p {
+  color: gray;
+}
+.nav-p {
+  color: black;
+}
+.nav-text {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+}
+.sec1 .button1 {
+  display: flex;
+  justify-content: center;
+}
+.sec1 button {
+  color: white;
+  background-color: rgb(0, 183, 255);
+  border-radius: 50px;
+  width: 200px;
+  height: 60px;
+  border: none;
+  border: 0px;
+  font-size: 18px;
+  margin-top: 45px;
+}
+.sec1 h1 {
+  font-size: 48px;
+  line-height: 56px;
+}
+.sec1 p {
+  margin-top: 25px;
+}
+
+.section2 {
+  background: url(./Frame\ \(6\).svg);
+  margin-top: 171px;
+  justify-items: center;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.sec2-text {
+  text-align: center;
+}
+.sec2 h1 {
+  font-size: 36px;
+}
+.line {
+  width: 56px;
+  height: 2px;
+  background-color: black;
+  margin-top: 26px;
+  margin-left: 630px;
+}
+.cards1 {
+  display: flex;
+  margin-top: 78px;
+  gap: 34px;
+  justify-content: center;
+  align-items: center;
+}
+.cards {
+  display: flex;
+  margin-top: 37px;
+  gap: 34px;
+  justify-content: center;
+}
+.card {
+  width: 350px;
+  height: 354px;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+}
+.card img {
+  margin-top: 54px;
+  margin-left: 37px;
+}
+.sec2 p {
+  font-size: 18px;
+  margin-top: 33px;
+}
+.card h2 {
+  font-size: 24px;
+  margin-left: 37px;
+  margin-top: 30px;
+}
+.card p {
+  font-size: 16px;
+  margin-left: 37px;
+}
+.sec2 .button2 {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  width: 200px;
+  height: 60px;
+  border: 2px solid #458ff6;
+  border-radius: 55px;
+  font-size: 18px;
+  background-color: white;
+  color: #458ff6;
+  /* margin-left: 560px; */
+  margin-top: 71px;
+}
+
+.section3 {
+  margin-top: 100px;
+}
+.sec3 .button3 {
+  display: flex;
+  justify-content: center;
+}
+.btn2 {
+  width: 200px;
+  height: 60px;
+  border: 2px solid #458ff6;
+  border-radius: 55px;
+  font-size: 18px;
+  background-color: white;
+  color: #458ff6;
+  margin-top: 37px;
+}
+
+.sec3 {
+  display: flex;
+  gap: 200px;
+  align-items: center;
+}
+.line2 {
+  width: 56px;
+  height: 2px;
+  background-color: black;
+  margin-top: 26px;
+}
+.sec3-text p {
+  margin-top: 31px;
+  font-size: 18px;
+}
+.sec3-text h1 {
+  font-size: 36px;
+}
+/* .section4 {
+  margin-top: 100px;
+}
+.btn3 {
+  width: 200px;
+  height: 60px;
+  border: 2px solid #458ff6;
+  border-radius: 55px;
+  font-size: 18px;
+  background-color: white;
+  color: #458ff6;
+  margin-top: 40px;
+}
+.sec4 {
+  display: flex;
+  gap: 71px;
+}
+.line3 {
+  width: 56px;
+  height: 2px;
+  background-color: black;
+  margin-top: 26px;
+}
+.sec4 p {
+  margin-top: 31px;
+} */
+.section4 {
+  margin-top: 100px;
+}
+.sec4 .button4 {
+  display: flex;
+  justify-content: center;
+}
+.btn3 {
+  width: 200px;
+  height: 60px;
+  border: 2px solid #458ff6;
+  border-radius: 55px;
+  font-size: 18px;
+  background-color: white;
+  color: #458ff6;
+  margin-top: 37px;
+}
+
+.sec4 {
+  display: flex;
+  gap: 250px;
+  align-items: center;
+}
+.line3 {
+  width: 56px;
+  height: 2px;
+  background-color: black;
+  margin-top: 26px;
+}
+.sec4-text p {
+  margin-top: 31px;
+  font-size: 18px;
+}
+.sec4-text h1 {
+  font-size: 36px;
+}
+.section5 {
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+}
+.sec5 {
+  background-color: #458ff6;
+  border-radius: 24px;
+  width: 1120px;
+  height: 425px;
+  display: inline-block;
+  justify-items: center;
+  padding: 61px 116px 82px 120px;
+  margin-top: 269px;
+}
+.mini-cards {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin-top: 61px;
+}
+.mini-card1 {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+.sec5 h1 {
+  color: white;
+  font-size: 36px;
+}
+.mini-card2 span {
+  color: white;
+}
+.mini-card-text h3 {
+  color: white;
+}
+.mini-card-text span {
+  color: white;
+}
+.line4 {
+  width: 56px;
+  height: 2px;
+  background-color: white;
+  margin-top: 25px;
+  border-radius: 6px;
+}
+span {
+  font-size: 19px;
+}
+.arrow {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-right: 100px;
+}
+.section6 {
+  margin-top: 222px;
+}
+.line5 {
+  width: 56px;
+  height: 2px;
+  background-color: black;
+  margin-top: 26px;
+  border-radius: 5px;
+  margin-left: 630px;
+  margin-bottom: 79px;
+}
+.cards2 {
+  gap: 35px;
+  display: flex;
+  justify-content: center;
+}
+.card2 {
+  width: 350px;
+  height: 512px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 100px;
+}
+.card2 img {
+  border-radius: 20px;
+}
+.card2 p {
+  font-size: 16px;
+  margin-top: 12px;
+  margin-bottom: 25px;
+}
+.card2 h2 {
+  font-size: 21px;
+  margin-top: 24px;
+}
+.sec6 .button6 {
+  display: flex;
+  justify-content: center;
+}
+.sec6 h1 {
+  font-size: 36px;
+  justify-self: center;
+}
+.btn5 {
+  width: 200px;
+  height: 60px;
+  border: 2px solid #458ff6;
+  border-radius: 55px;
+  font-size: 18px;
+  background-color: white;
+  color: #458ff6;
+  margin-top: 69px;
+  justify-self: center;
+}
+.card2 a {
+  color: #4089ed;
+  gap: 13px;
+  display: flex;
+}
+footer {
+  background-color: #5a98f2;
+  width: 1600px;
+  height: 432px;
+  margin-top: 201px;
+  color: #ffffff;
+  display: flex;
+}
+a {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 38px;
+  text-decoration: none;
+}
+.mini-cards2 h4 {
+  font-size: 20px;
+}
+.mini-card-text p {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 31px;
+}
+.mini-card-text span {
+  font-size: 18px;
+  line-height: 28px;
+}
+.mini-cards2 {
+  display: flex;
+  gap: 190px;
+  margin-top: 115px;
+}
+.mini-card3 img {
+  margin-bottom: 17px;
+}
